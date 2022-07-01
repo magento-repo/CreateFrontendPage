@@ -2,7 +2,7 @@
 
 1. Create a etc/module.xml and registration.php to register your module
 2. Define routes.xml under etc/frontend<br>
-    <i><route id="learning" frontName="learningpath"><br>
+    <i><b>route id="learning" frontName="learningpath"</b><br>
     rount id used to create a layout file<br>
     frontendName used in the frontend navigation<i>
 3. Create layout file under view/frontend/layout/learning_index_index.xml<br>
@@ -11,7 +11,7 @@
     ControllerFolderName => index<br>
     FileName => index</i>
 4. Define block and phtml in your layout file<br>
-    <i><block class="LearningPath\CreateFrontendPage\Block\Index\Index" name="learning_index_index" template="LearningPath_CreateFrontendPage::index.phtml" /><br>
+    <i><b>block class="LearningPath\CreateFrontendPage\Block\Index\Index" name="learning_index_index" template="LearningPath_CreateFrontendPage::index.phtml"</b><br>
     class - says which block file assigned to the template.<br>
     name - should be unquie<br>
     template - says where to define the phtml file</i>
